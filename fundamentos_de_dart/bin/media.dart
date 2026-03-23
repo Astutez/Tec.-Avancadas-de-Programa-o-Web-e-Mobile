@@ -14,6 +14,6 @@ void main() {
 
 double calculo(double prova, double trabalho){
 
-  double? media = prova* 0.6 + trabalho * 0.4;
+  double? media = prova * 0.6 + trabalho * 0.4;
     return media;
 }
