@@ -8,7 +8,7 @@ void main() {
   stdout.write("\nInsira a nota do trabalho: ");
  double? trabalho =  double.tryParse(stdin.readLineSync()!);
 
-  stdout.write("\nA média foi: ${calculo(prova!, trabalho!)}\n");
+ stdout.write("\nA média foi: ${calculo(prova, trabalho!)}\n");
 
 }
 
